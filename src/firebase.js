@@ -1,27 +1,18 @@
-//import the functions you need from the SDKs you need
-//import { initializeApp } from "firebase/app";
+
 import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import { getFirestore,addDoc,collection } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
 import { toast } from "react-toastify";
-//import { getAnalytics } from "firebase/analytics";
 
 
-/* const firebaseConfig={
-  apikey:"AIzaSyCEy6YUeAvjOmRARvTRdfGel8RJDzs8U7A",
-  authDomain:"netflix-clone-d1fa8.firebaseapp.com",
-  projectId:"netflix-clone-d1fa8",
-  storageBucket:"netflix-clone-d1fa8.appspot.com",
-  messagingSenderId:"1080602120235",
-  appId:"1:1080602120235:web:29e7c05415df6c1cd65a6e",
-}; */
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDB3ZQS0puf6zooQI1IggWeU6OgHgF6YSA",
+  apiKey: "AIzaSyD...ggWeU6OgHgF6YSA",
   authDomain: "netflix-clone-59df0.firebaseapp.com",
   projectId: "netflix-clone-59df0",
   storageBucket: "netflix-clone-59df0.firebasestorage.app",
   messagingSenderId: "363353651873",
-  appId: "1:363353651873:web:f81c8f51ddd2286b020ee0",
+  appId: "1:363353..73:web:f81c8f51ddd2286b020ee0",
   measurementId: "G-WSYZLZGDMD"
 };
 
